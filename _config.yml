@@ -7,4 +7,4 @@ contact:
   linkedin: "https://www.linkedin.com/in/sfwnsft"
   github: "https://github.com/sfwnsft"
 
-theme: jekyll-theme-minimal
+remote_theme: pages-themes/midnight@v0.2.0
