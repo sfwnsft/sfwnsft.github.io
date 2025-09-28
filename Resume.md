@@ -6,7 +6,7 @@ permalink: /resume/
 
 # Resume
 
-[Download PDF](/assets/files/Safwan_CV.pdf){:target="_blank"}
+[Download PDF](/assets/files/Resume.pdf){:target="_blank"}
 
 ## Summary
 Software engineering student with strong knowledge of Linux, open-source software and version control systems like Git and GitHub. Passionate about contributing to projects and expanding expertise in software engineering and system design.
@@ -16,12 +16,12 @@ Software engineering student with strong knowledge of Linux, open-source softwar
 Daffodil International University
 
 **Higher Secondary School Certificate** (2021 – 2022) 
-Mymensingh Govt. College 
-(GPA 5.00/5.00)
+Mymensingh Govt. College
+GPA: 5.00/5.00
 
-**Secondary School Certificate** (2019 – 2020) 
-Govt. Laboratory High School, Mymensingh 
-(GPA 5.00/5.00)
+**Secondary School Certificate** (2019 – 2020)
+Govt. Laboratory High School, Mymensingh
+GPA: 5.00/5.00
 
 ## Technical Skills
 - **Programming**: C  
