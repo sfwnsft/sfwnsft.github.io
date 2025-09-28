@@ -15,13 +15,13 @@ Software engineering student with strong knowledge of Linux, open-source softwar
 **Bachelor of Science in Software Engineering** (Ongoing, 2025 – Present)  
 Daffodil International University
 
-**Higher Secondary School Certificate** (2021 – 2022) 
-Mymensingh Govt. College
-GPA: 5.00/5.00
+**Higher Secondary School Certificate** (2021 – 2022)  
+Mymensingh Govt. College  
+(GPA: 5.00/5.00)
 
-**Secondary School Certificate** (2019 – 2020)
-Govt. Laboratory High School, Mymensingh
-GPA: 5.00/5.00
+**Secondary School Certificate** (2019 – 2020)  
+Govt. Laboratory High School, Mymensingh  
+(GPA: 5.00/5.00)
 
 ## Technical Skills
 - **Programming**: C  
