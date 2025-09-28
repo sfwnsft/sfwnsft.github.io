@@ -8,6 +8,28 @@
     {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     {% include head-custom.html %}
+    <style>
+      
+      html, body {
+        height: 100%;
+        margin: 0;
+      }
+      body {
+        display: flex;
+        flex-direction: column;
+      }
+      .container-lg {
+        flex: 1;
+      }
+      footer.sticky-footer {
+        text-align: center;
+        font-size: 14px;
+        color: #888;
+        margin-top: 20px;
+        padding: 10px 0;
+        border-top: 1px solid #ddd;
+      }
+    </style>
   </head>
   <body>
     <div class="container-lg px-3 my-5 markdown-body">
@@ -23,9 +45,8 @@
       </div>
       {% endif %}
     </div>
-
-    <!-- Custom footer -->
-    <footer style="text-align:center; font-size:14px; color:#888; margin-top:40px; padding-bottom:20px;">
+    
+    <footer class="sticky-footer">
       © 2025 Safwan Safat. All rights reserved.
     </footer>
 
