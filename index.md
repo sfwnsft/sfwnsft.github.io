@@ -14,3 +14,9 @@ permalink: /
 - Email: [safwansafatswe@gmail.com](mailto:safwansafatswe@gmail.com)  
 - [LinkedIn](https://www.linkedin.com/in/sfwnsft)
 - [GitHub](https://github.com/sfwnsft)
+
+
+
+<div style="text-align:center; font-size:14px; color:#888; margin-top:40px; padding-bottom:20px;">
+  © 2025 Safwan Safat. All rights reserved.
+</div>
