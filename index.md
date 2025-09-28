@@ -11,13 +11,13 @@ Linux, open-source, Git, and C programming. Passionate about building things and
 
 **Contact:**  
 - Email: [safwansafatswe@gmail.com](mailto:safwansafatswe@gmail.com)  
-- LinkedIn: https://www.linkedin.com/in/sfwnsft  
-- GitHub: https://github.com/sfwnsft
+- [LinkedIn](https://www.linkedin.com/in/sfwnsft)
+- [GitHub](https://github.com/sfwnsft)
 
 ---
 
 ## Quick Links
-- [Projects](/projects/)
+- [PROJECTS](/projects/)
 - [CV](/cv/)
 
 ---
