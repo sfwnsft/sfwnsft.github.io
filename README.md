@@ -4,13 +4,9 @@ This repository contains the source code for my personal website, hosted with **
 
 **Live site:** [https://sfwnsft.github.io](https://sfwnsft.github.io)
 
----
-
 ## About
 
 The site serves as my online presence where I share Quick introduction, contact links, selected software projects with GitHub links, and online version of my resume with a downloadable PDF.
-
----
 
 ## Built With
 
@@ -18,12 +14,10 @@ The site serves as my online presence where I share Quick introduction, contact 
 * [jekyll-theme-primer](https://github.com/pages-themes/primer)
 * GitHub Pages
 
----
-
 ## Project Structure
 
 ```text
-.
+|
 ├── _config.yml        # Site configuration
 ├── index.md           # Homepage
 ├── projects.md        # Projects page
@@ -32,8 +26,6 @@ The site serves as my online presence where I share Quick introduction, contact 
 │   ├── files/         # Resume PDF and other downloadable files        
 └── README.md          
 ```
-
----
 
 ## Running Locally
 
@@ -58,8 +50,6 @@ bundle exec jekyll serve
 ```
 
 4. Open in browser: `http://localhost:4000`
-
----
 
 ## License
 
