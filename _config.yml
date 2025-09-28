@@ -2,9 +2,9 @@ title: "Safwan Safat"
 description: "Software Engineer"
 github_username: "sfwnsft"
 
-**Contact:**  
-- Email: [safwansafatswe@gmail.com](mailto:safwansafatswe@gmail.com)  
-- [LinkedIn](https://www.linkedin.com/in/sfwnsft)
-- [GitHub](https://github.com/sfwnsft)
+contact:
+  email: "safwansafatswe@gmail.com"
+  linkedin: "https://www.linkedin.com/in/sfwnsft"
+  github: "https://github.com/sfwnsft"
 
 theme: jekyll-theme-minimal
