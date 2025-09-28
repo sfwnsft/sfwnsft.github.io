@@ -6,7 +6,7 @@ This repository contains the source code for my personal website, hosted with **
 
 ## About
 
-The site serves as my online presence where I share Quick introduction, contact links, selected software projects with GitHub links, and online version of my resume with a downloadable PDF.
+The site shows my quick introduction, contact links, software projects, and my resume with a downloadable PDF.
 
 ## Built With
 
