@@ -12,12 +12,11 @@ The site serves as my online presence where I share Quick introduction, contact 
 
 * [Jekyll](https://jekyllrb.com/)
 * [jekyll-theme-primer](https://github.com/pages-themes/primer)
-* GitHub Pages
+* [GitHub Pages](https://docs.github.com/en/pages)
 
 ## Project Structure
 
 ```text
-|
 ├── _config.yml        # Site configuration
 ├── index.md           # Homepage
 ├── projects.md        # Projects page
