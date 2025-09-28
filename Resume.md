@@ -35,7 +35,7 @@ Govt. Laboratory High School, Mymensingh
 - [**Number System Converter**](https://github.com/sfwnsft/Number-System-Converter)
 
 ## Certifications
-- [**Introduction to AI**](https://www.coursera.org/account/accomplishments/verify/F0TWKPJZITUW) — Google
+- [**Google AI Essentials**](https://coursera.org/share/f2b522c73caed1d35e3762f1ca449ead) — Google
 
 ## Extracurricular Activities
 - **Music Producer** — managing creative projects and building a personal brand.
