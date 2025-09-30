@@ -1,6 +1,4 @@
-# Safwan Safat — Personal Website
-
-This repository contains the source code for my personal website, hosted with **GitHub Pages** using the [Jekyll Primer Theme](https://github.com/pages-themes/primer).
+# Safwan Safat — Portfolio
 
 **Live site:** [https://sfwnsft.github.io](https://sfwnsft.github.io)
 
@@ -13,18 +11,6 @@ The site shows my quick introduction, contact links, software projects, and my r
 * [Jekyll](https://jekyllrb.com/)
 * [jekyll-theme-primer](https://github.com/pages-themes/primer)
 * [GitHub Pages](https://docs.github.com/en/pages)
-
-## Project Structure
-
-```text
-├── _config.yml        # Site configuration
-├── index.md           # Homepage
-├── projects.md        # Projects page
-├── resume.md          # Resume page
-├── assets/
-│   ├── files/         # Resume PDF and other downloadable files        
-└── README.md          
-```
 
 ## Running Locally
 
