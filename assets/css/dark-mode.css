@@ -15,7 +15,7 @@ hr { border-color: var(--border-color); }
 code, pre { background-color: var(--code-bg); color: var(--code-text); border-radius: 4px; padding: 2px 4px; }
 
 body.dark-mode {
-  --bg-color: #1e1e1e;    /* dark gray background */
+  --bg-color: #1e1e1e;
   --text-color: #c9d1d9;
   --link-color: #58a6ff;
   --link-hover-color: #79c0ff;
