@@ -10,47 +10,19 @@
     <link rel="stylesheet" href="{{ '/assets/css/dark-mode.css' | relative_url }}">
     {% include head-custom.html %}
     <style>
-      html, body {
-        height: 100%;
-        margin: 0;
-      }
-      body {
-        display: flex;
-        flex-direction: column;
-        transition: background-color 0.3s ease, color 0.3s ease;
-      }
-      a, h1, h2, h3, h4, h5, h6, p, code, pre {
-        transition: color 0.3s ease, background-color 0.3s ease;
-      }
-      .container-lg {
-        flex: 1;
-        padding: 3rem 1rem 3rem 1rem;
-      }
-      footer.sticky-footer {
-        text-align: center;
-        font-size: 14px;
-        color: #888;
-        margin-top: 20px;
-        padding: 10px 0;
-        transition: color 0.3s ease, background-color 0.3s ease;
-      }
-      #dark-mode-toggle {
-        border: none;
-        background: none;
-        font-size: 1.5rem;
-        cursor: pointer;
-        margin-bottom: 1rem;
-      }
+      html, body { height: 100%; margin: 0; }
+      body { display: flex; flex-direction: column; }
+      .container-lg { flex: 1; padding: 3rem 1rem; }
+      footer.sticky-footer { text-align: center; font-size: 14px; color: #888; margin-top: 20px; padding: 10px 0; }
     </style>
   </head>
   <body>
+    <button id="dark-mode-toggle">🌙</button>
+
     <div class="container-lg markdown-body">
       {% if site.title and site.title != page.title %}
       <h1><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
       {% endif %}
-
-      <button id="dark-mode-toggle">🌙</button>
-
       {{ content }}
     </div>
     
@@ -60,33 +32,23 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
     <script>anchors.add();</script>
-    
+
     <script>
       const toggle = document.getElementById('dark-mode-toggle');
       const body = document.body;
 
-      if (localStorage.getItem('theme') === 'dark') {
-        body.classList.add('dark-mode');
-      } else if (localStorage.getItem('theme') === 'light') {
-        body.classList.remove('dark-mode');
-      } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      if (localStorage.getItem('theme') === 'dark' || 
+          (!localStorage.getItem('theme') && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
         body.classList.add('dark-mode');
       }
+
+      if (body.classList.contains('dark-mode')) toggle.textContent = '☀️';
 
       toggle.addEventListener('click', () => {
         body.classList.toggle('dark-mode');
-        if (body.classList.contains('dark-mode')) {
-          localStorage.setItem('theme', 'dark');
-          toggle.textContent = '☀️';
-        } else {
-          localStorage.setItem('theme', 'light');
-          toggle.textContent = '🌙';
-        }
+        toggle.textContent = body.classList.contains('dark-mode') ? '☀️' : '🌙';
+        localStorage.setItem('theme', body.classList.contains('dark-mode') ? 'dark' : 'light');
       });
-
-      if (body.classList.contains('dark-mode')) {
-        toggle.textContent = '☀️';
-      }
     </script>
   </body>
 </html>
