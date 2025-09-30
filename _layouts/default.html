@@ -25,7 +25,7 @@
       {% endif %}
       {{ content }}
     </div>
-    
+
     <footer class="sticky-footer">
       © 2025 Safwan Safat. All rights reserved.
     </footer>
@@ -40,9 +40,8 @@
       if (localStorage.getItem('theme') === 'dark' || 
           (!localStorage.getItem('theme') && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
         body.classList.add('dark-mode');
+        toggle.textContent = '☀️';
       }
-
-      if (body.classList.contains('dark-mode')) toggle.textContent = '☀️';
 
       toggle.addEventListener('click', () => {
         body.classList.toggle('dark-mode');
