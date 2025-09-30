@@ -24,26 +24,26 @@ body.dark-mode {
   --code-text: #e6edf3;
 }
 
-button {
-  color: inherit;
-  background: rgba(0,0,0,0.1);
-  border: none;
-  cursor: pointer;
-  font-size: 1.3rem;
+#dark-mode-toggle {
   position: fixed;
   top: 20px;
   right: 20px;
-  z-index: 1000;
   width: 38px;
   height: 38px;
   border-radius: 50%;
+  border: none;
+  background: rgba(0,0,0,0.1);
+  color: inherit;
+  font-size: 1.3rem;
+  cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 1000;
   transition: background 0.2s ease, transform 0.2s ease;
 }
 
-button:hover {
+#dark-mode-toggle:hover {
   background: rgba(0,0,0,0.2);
   transform: scale(1.1);
 }
