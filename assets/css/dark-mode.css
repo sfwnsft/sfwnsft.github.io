@@ -1,0 +1,73 @@
+/
+:root {
+  --bg-color: #ffffff;
+  --text-color: #24292e;
+  --link-color: #0969da;
+  --link-hover-color: #054da1;
+  --border-color: #d0d7de;
+  --code-bg: #f6f8fa;
+  --code-text: #24292e;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--link-hover-color);
+  text-decoration: underline;
+}
+
+hr {
+  border-color: var(--border-color);
+}
+
+code, pre {
+  background-color: var(--code-bg);
+  color: var(--code-text);
+  border-radius: 4px;
+  padding: 2px 4px;
+}
+
+body.dark-mode {
+  --bg-color: #0d1117;
+  --text-color: #c9d1d9;
+  --link-color: #58a6ff;
+  --link-hover-color: #79c0ff;
+  --border-color: #30363d;
+  --code-bg: #161b22;
+  --code-text: #e6edf3;
+}
+
+button {
+  color: inherit;
+  background: transparent;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table th,
+table td {
+  border: 1px solid var(--border-color);
+  padding: 6px 12px;
+}
+
+blockquote {
+  border-left: 4px solid var(--border-color);
+  padding-left: 12px;
+  color: var(--text-color);
+  opacity: 0.9;
+}
