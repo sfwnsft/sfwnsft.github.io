@@ -43,4 +43,4 @@ GPA: 5.00/5.00
 - **Music Producer** — managing creative projects and building a personal brand.
 
 ## Languages
-- Bangla (NAtive), English (Fluent)
+- Bangla (Native), English (Fluent)
