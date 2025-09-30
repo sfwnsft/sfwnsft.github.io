@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     {% seo %}
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/dark-mode.css' | relative_url }}">
@@ -17,14 +16,11 @@
     </style>
   </head>
   <body>
-    
     <button id="dark-mode-toggle">
-      
       <svg id="icon-light" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="black">
         <path d="M12 4.5V2m0 20v-2.5M4.5 12H2m20 0h-2.5M5.636 5.636l-1.768-1.768m15.264 15.264l-1.768-1.768M5.636 18.364l-1.768 1.768m15.264-15.264l-1.768 1.768M12 8a4 4 0 100 8 4 4 0 000-8z"/>
       </svg>
-      <!-- Moon icon (dark mode) -->
-      <svg id="icon-dark" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="black" style="display:none;">
+      <svg id="icon-dark" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="white" style="display:none;">
         <path d="M21 12.79A9 9 0 1111.21 3a7 7 0 109.79 9.79z"/>
       </svg>
     </button>
@@ -52,22 +48,22 @@
       if (localStorage.getItem('theme') === 'dark' || 
           (!localStorage.getItem('theme') && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
         body.classList.add('dark-mode');
-        iconLight.style.display = "block";
-        iconDark.style.display = "none";
-      } else {
         iconLight.style.display = "none";
         iconDark.style.display = "block";
+      } else {
+        iconLight.style.display = "block";
+        iconDark.style.display = "none";
       }
 
       toggle.addEventListener('click', () => {
         body.classList.toggle('dark-mode');
         if (body.classList.contains('dark-mode')) {
-          iconLight.style.display = "block";
-          iconDark.style.display = "none";
-          localStorage.setItem('theme', 'dark');
-        } else {
           iconLight.style.display = "none";
           iconDark.style.display = "block";
+          localStorage.setItem('theme', 'dark');
+        } else {
+          iconLight.style.display = "block";
+          iconDark.style.display = "none";
           localStorage.setItem('theme', 'light');
         }
       });
