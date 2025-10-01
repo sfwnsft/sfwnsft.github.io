@@ -6,8 +6,9 @@ permalink: /
 
 **About Me**  
 
-I am a Software Engineering student working with C programming, HTML, CSS, and Git/GitHub. I plan to use C in operating systems and other low-level software projects, and HTML, CSS to build websites.
-I also produce and release original music on Spotify, Apple Music, and other streaming platforms. 
+Software Engineering student based in Bangladesh, with knowledge of C, HTML, Git/GitHub for software and web 
+development.  Music  producer  with  original  releases  on  Spotify,  Apple  Music,  and  other 
+streaming platforms.
 
 **Quick Links**
 - [Projects](/projects/)
