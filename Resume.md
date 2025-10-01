@@ -26,9 +26,9 @@ Govt. Laboratory High School, Mymensingh
 GPA: 5.00/5.00
 
 ## Skills
-- Programming & Markup Languages: C, HTML   
-- Software Tools: Visual Studio Code, Bootstrap Studio, Git/GitHub  
-- Productivity Tools: Microsoft Office Suite, Google Workspace 
+- **Programming & Markup Languages**: C, HTML 
+- **Software Tools**: Visual Studio Code, Bootstrap Studio, Git/GitHub 
+- **Productivity Tools**: Microsoft Office Suite, Google Workspace 
 
 ## Projects
 - [**Notes Manager**](https://github.com/sfwnsft/Notes-Manager-C) – Terminal-based application in C for managing notes 
