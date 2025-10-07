@@ -15,6 +15,6 @@ streaming platforms.
 - [Resume](/resume/)
 
 **Contact:**  
-- Email: [safwansafatswe@gmail.com](mailto:safwansafatswe@gmail.com)  
+- [Email](mailto:safwansafatswe@gmail.com)  
 - [LinkedIn](https://www.linkedin.com/in/sfwnsft)
 - [GitHub](https://github.com/sfwnsft)
